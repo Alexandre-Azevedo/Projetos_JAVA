@@ -1,0 +1,10 @@
+package entidades;
+
+import entidades.enums.NivelDoTrabalhador;
+
+public class Trabalhadores {
+	private String nome;
+	private NivelDoTrabalhador nivel;
+	private Double salarioBase;
+
+}
