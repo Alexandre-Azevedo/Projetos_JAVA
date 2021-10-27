@@ -1,0 +1,26 @@
+package aplicacao;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o nome do deparatamento:" );
+		String nomeDoDepartamento = sc.nextLine();
+		System.out.println("Digite os dados do trabalhador: ");
+		System.out.println("Nome: ");
+		String nomeDoTrabalhador = sc.nextLine();
+		System.out.println("Nivel: ");
+		Integer nível = sc.nextInt();
+		System.out.println("Sálario Base: ");
+		Double salarioBase = sc.nextDouble();
+		
+		
+		sc.close();
+	}
+	
+}

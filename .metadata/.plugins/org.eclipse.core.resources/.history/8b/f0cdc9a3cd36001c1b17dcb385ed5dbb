@@ -45,10 +45,7 @@ public class Program {
 		System.out.println("Digite o mês e o ano para calcular o montante (MM/YYYY): ");
 		String mesEAno = sc.next();
 		int mes = Integer.parseInt(mesEAno.substring(0, 2));
-		int ano = Integer.parseInt(mesEAno.substring(3));
-		System.out.println("Nome: "+trabalhador.getNome());
-		System.out.println("Departamento: "+trabalhador.getDepartamento().getNome());
-		System.out.println("Montante de "+mesEAno+": "+String.format("%.2f",trabalhador.calcularGanhos(ano, mes)));
+		int mes = Integer.parseInt(mesEAno.substring(3, 7));
 		sc.close();
 	}
 	
