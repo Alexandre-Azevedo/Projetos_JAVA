@@ -48,7 +48,7 @@ public class Program {
 		int ano = Integer.parseInt(mesEAno.substring(3));
 		System.out.println("Nome: "+trabalhador.getNome());
 		System.out.println("Departamento: "+trabalhador.getDepartamento().getNome());
-		System.out.println("Montante de "+mesEAno+": "+String.format("%.2f",trabalhador.calcularGanhos(ano, mes)));
+		System.out.println("Montante de "+mesEAno+": "+trabalhador.calcularGanhos(ano, mes));
 		sc.close();
 	}
 	
